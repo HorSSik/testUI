@@ -8,12 +8,6 @@
 
 import UIKit
 
-struct RateCellViewModel {
-    
-    let image: UIImage?
-    let text: String
-}
-
 class RateCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var imageView: UIImageView?

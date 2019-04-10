@@ -54,6 +54,7 @@
 		3F013E11225E167A00055A5B /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E10225E167900055A5B /* ReusableView.swift */; };
 		3F013E14225E2C1200055A5B /* RateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E12225E2C1200055A5B /* RateCollectionViewCell.swift */; };
 		3F013E15225E2C1200055A5B /* RateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F013E13225E2C1200055A5B /* RateCollectionViewCell.xib */; };
+		3F013E18225E37D900055A5B /* RateCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E17225E37D900055A5B /* RateCellViewModel.swift */; };
 		51464004A4ADDF857DACE886 /* Pods_TestUI2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992C3DCB5F1B6B4179105DA5 /* Pods_TestUI2.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +109,7 @@
 		3F013E10225E167900055A5B /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		3F013E12225E2C1200055A5B /* RateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCollectionViewCell.swift; sourceTree = "<group>"; };
 		3F013E13225E2C1200055A5B /* RateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateCollectionViewCell.xib; sourceTree = "<group>"; };
+		3F013E17225E37D900055A5B /* RateCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCellViewModel.swift; sourceTree = "<group>"; };
 		992C3DCB5F1B6B4179105DA5 /* Pods_TestUI2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUI2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB804431CCA84030E7BE3DC4 /* Pods-TestUI2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI2.debug.xcconfig"; path = "Target Support Files/Pods-TestUI2/Pods-TestUI2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -276,6 +278,7 @@
 		3F013DFA225DDED900055A5B /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3F013E16225E37C100055A5B /* Models */,
 				3F013DFB225DDF0800055A5B /* StatisticViewController */,
 			);
 			path = UI;
@@ -307,6 +310,14 @@
 				3F013E13225E2C1200055A5B /* RateCollectionViewCell.xib */,
 			);
 			path = RateCell;
+			sourceTree = "<group>";
+		};
+		3F013E16225E37C100055A5B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F013E17225E37D900055A5B /* RateCellViewModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		D39460992243A72A1C2221F6 /* Pods */ = {
@@ -434,6 +445,7 @@
 				3F013DE1225DDEB600055A5B /* IDProvider.swift in Sources */,
 				3F013DF9225DDEB600055A5B /* StateableNetwork.swift in Sources */,
 				3F013DF4225DDEB600055A5B /* RealmModel.swift in Sources */,
+				3F013E18225E37D900055A5B /* RateCellViewModel.swift in Sources */,
 				3F013DD6225DDEB600055A5B /* Result.swift in Sources */,
 				3F013DF7225DDEB600055A5B /* Cancellable.swift in Sources */,
 				3F013DF1225DDEB600055A5B /* RangeReplacebleCollection+Extensions.swift in Sources */,
