@@ -19,14 +19,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     )
         -> Bool
     {
-        let rootViewController = StatisticViewController()
+        let provider = MockProviderType()
+        let rootViewController = UINavigationController.init
+            § StatisticViewController.init
+            § provider
         
-        let navigationController = UINavigationController.init § rootViewController
-        
-        navigationController.isNavigationBarHidden = true
+        rootViewController.isNavigationBarHidden = true
         
         let window = UIWindow(frame: UIScreen.main.bounds)
-        window.rootViewController = navigationController
+        window.rootViewController = rootViewController
         window.makeKeyAndVisible()
         
         self.window = window

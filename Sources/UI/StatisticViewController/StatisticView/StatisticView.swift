@@ -10,17 +10,10 @@ import UIKit
 
 class StatisticView: UIView {
     
-    @IBOutlet var firstRateCell: RateCellView?
-    @IBOutlet var secondRateCell: RateCellView?
-    @IBOutlet var thirdRateCell: RateCellView?
-    @IBOutlet var fourthRateCell: RateCellView?
     @IBOutlet var diagrammImage: UIImageView?
+    @IBOutlet var collectionView: UICollectionView?
     
-    func fillRateCell() {
-        self.firstRateCell?.fill(image: UIImage(asset: Asset.health), text: "Death: $250,000")
-        self.secondRateCell?.fill(image: UIImage(asset: Asset.clinic), text: "Clinic service")
-        self.thirdRateCell?.fill(image: UIImage(asset: Asset.health), text: "Low price")
-        self.fourthRateCell?.fill(image: UIImage(asset: Asset.bed), text: "Comfort rest")
+    func prepareView() {
         self.diagrammImage?.image = UIImage(asset: Asset.logo)
     }
 }

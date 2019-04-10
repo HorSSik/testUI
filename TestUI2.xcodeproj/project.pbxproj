@@ -47,13 +47,13 @@
 		3F013DFE225DDF3500055A5B /* StatisticViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013DFC225DDF3500055A5B /* StatisticViewController.swift */; };
 		3F013DFF225DDF3500055A5B /* StatisticViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F013DFD225DDF3500055A5B /* StatisticViewController.xib */; };
 		3F013E02225DDFE700055A5B /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E01225DDFE700055A5B /* StatisticView.swift */; };
-		3F013E04225DEA6A00055A5B /* RateCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E03225DEA6A00055A5B /* RateCellView.swift */; };
-		3F013E07225DEAAC00055A5B /* RateCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F013E06225DEAAC00055A5B /* RateCellView.xib */; };
 		3F013E09225E07FD00055A5B /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 3F013E08225E07FC00055A5B /* swiftgen.yml */; };
 		3F013E0B225E0B5100055A5B /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E0A225E0B5100055A5B /* Assets.swift */; };
 		3F013E0D225E135700055A5B /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E0C225E135700055A5B /* NibLoadable.swift */; };
 		3F013E0F225E14FC00055A5B /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E0E225E14FB00055A5B /* NibOwnerLoadable.swift */; };
 		3F013E11225E167A00055A5B /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E10225E167900055A5B /* ReusableView.swift */; };
+		3F013E14225E2C1200055A5B /* RateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F013E12225E2C1200055A5B /* RateCollectionViewCell.swift */; };
+		3F013E15225E2C1200055A5B /* RateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F013E13225E2C1200055A5B /* RateCollectionViewCell.xib */; };
 		51464004A4ADDF857DACE886 /* Pods_TestUI2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 992C3DCB5F1B6B4179105DA5 /* Pods_TestUI2.framework */; };
 /* End PBXBuildFile section */
 
@@ -101,13 +101,13 @@
 		3F013DFC225DDF3500055A5B /* StatisticViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticViewController.swift; sourceTree = "<group>"; };
 		3F013DFD225DDF3500055A5B /* StatisticViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatisticViewController.xib; sourceTree = "<group>"; };
 		3F013E01225DDFE700055A5B /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
-		3F013E03225DEA6A00055A5B /* RateCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCellView.swift; sourceTree = "<group>"; };
-		3F013E06225DEAAC00055A5B /* RateCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateCellView.xib; sourceTree = "<group>"; };
 		3F013E08225E07FC00055A5B /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiftgen.yml; sourceTree = SOURCE_ROOT; };
 		3F013E0A225E0B5100055A5B /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = SOURCE_ROOT; };
 		3F013E0C225E135700055A5B /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		3F013E0E225E14FB00055A5B /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
 		3F013E10225E167900055A5B /* ReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		3F013E12225E2C1200055A5B /* RateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateCollectionViewCell.swift; sourceTree = "<group>"; };
+		3F013E13225E2C1200055A5B /* RateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RateCollectionViewCell.xib; sourceTree = "<group>"; };
 		992C3DCB5F1B6B4179105DA5 /* Pods_TestUI2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestUI2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB804431CCA84030E7BE3DC4 /* Pods-TestUI2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestUI2.debug.xcconfig"; path = "Target Support Files/Pods-TestUI2/Pods-TestUI2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -303,8 +303,8 @@
 		3F013E05225DEA7700055A5B /* RateCell */ = {
 			isa = PBXGroup;
 			children = (
-				3F013E03225DEA6A00055A5B /* RateCellView.swift */,
-				3F013E06225DEAAC00055A5B /* RateCellView.xib */,
+				3F013E12225E2C1200055A5B /* RateCollectionViewCell.swift */,
+				3F013E13225E2C1200055A5B /* RateCollectionViewCell.xib */,
 			);
 			path = RateCell;
 			sourceTree = "<group>";
@@ -388,7 +388,7 @@
 				3F013D99225DDCF900055A5B /* Assets.xcassets in Resources */,
 				3F013E09225E07FD00055A5B /* swiftgen.yml in Resources */,
 				3F013DFF225DDF3500055A5B /* StatisticViewController.xib in Resources */,
-				3F013E07225DEAAC00055A5B /* RateCellView.xib in Resources */,
+				3F013E15225E2C1200055A5B /* RateCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +426,7 @@
 			files = (
 				3F013DDD225DDEB600055A5B /* F.swift in Sources */,
 				3F013DE6225DDEB600055A5B /* UIButton+Extensions.swift in Sources */,
+				3F013E14225E2C1200055A5B /* RateCollectionViewCell.swift in Sources */,
 				3F013DD9225DDEB600055A5B /* ObservableWrapper.swift in Sources */,
 				3F013DE9225DDEB600055A5B /* UITableView+Extensions.swift in Sources */,
 				3F013DD4225DDEB600055A5B /* Generator.swift in Sources */,
@@ -460,7 +461,6 @@
 				3F013DDF225DDEB600055A5B /* Atomic.swift in Sources */,
 				3F013DDA225DDEB600055A5B /* ObservableObject.swift in Sources */,
 				3F013DEC225DDEB600055A5B /* NSLocking+Extensions.swift in Sources */,
-				3F013E04225DEA6A00055A5B /* RateCellView.swift in Sources */,
 				3F013DEB225DDEB600055A5B /* DispatchTime+Extensions.swift in Sources */,
 				3F013DE4225DDEB600055A5B /* RootViewRepresentable.swift in Sources */,
 				3F013DF5225DDEB600055A5B /* DataBaseServiseType.swift in Sources */,
