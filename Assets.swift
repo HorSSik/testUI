@@ -23,6 +23,7 @@ internal enum Asset {
   internal static let doctor = ImageAsset(name: "Doctor")
   internal static let dollar = ImageAsset(name: "Dollar")
   internal static let health = ImageAsset(name: "Health")
+  internal static let human = ImageAsset(name: "Human")
   internal static let logo = ImageAsset(name: "logo")
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name

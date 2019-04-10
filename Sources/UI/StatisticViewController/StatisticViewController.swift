@@ -21,7 +21,7 @@ class MockProviderType: DataProviderType {
         return [
             ("Death: $250,000", Asset.health),
             ("Clinic service", Asset.clinic),
-            ("Low price", Asset.health),
+            ("Low price", Asset.human),
             ("Comfort rest", Asset.bed)
         ]
             .compactMap {
